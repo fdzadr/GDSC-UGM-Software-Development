@@ -1,0 +1,52 @@
+This homework contains two challenges, all related to the materials you’ve received during the Learning Session meeting. Solve these problems, then submit your code in the Classroom assignment before the due date. Good luck and have fun guys 🔥! 
+
+## Task 1: Uniquely Written
+
+---
+
+This task will examine your understanding upon Dart’s `List` concept. 
+
+Provided the following paragraph:
+
+<aside>
+☀️ The bright sun shone brightly in the clear blue sky as I walked through the bustling city streets, surrounded by towering skyscrapers and bustling crowds of people. The vibrant colors of the storefronts and advertisements seemed to pop against the bright blue sky, and the sounds of honking cars and chatter filled the air. As I walked, I couldn't help but feel a sense of excitement and energy, knowing that there was so much to see and do in this vibrant and lively city. Despite the chaos and noise, I felt at home in this bustling metropolis, and I couldn't wait to see what the day had in store for me.
+
+</aside>
+
+Write a function that takes a paragraph of text and returns a collection of String with duplicates. For example, the word ****************bustling**************** appears three times in the paragraph, and since it has duplicates, you should put the word ****************bustling**************** into the List output.
+
+## Task 2: Mapping Users
+
+---
+
+From the learning session meeting, you have meet with the `factory` keyword and familiar with its implementation, such as `fromJson()` (which generate the class’ object from JSON instance). Later on the Flutter development, you may encounter an occassion where you must transform your local class object into something that the database can hold like JSON (in String form).
+
+Provided the following data of some GDSC core team members:
+
+1. Bintang Restu
+    
+    > Faculty: Electrical and Information Engineering
+    Year: 2021
+    Role: Academic
+    > 
+2. Ferdian Nugraha
+    
+    > Faculty: Math and Natural Sciences
+    Year: 2021
+    Role: Academic
+    > 
+3. Aunur Ikmal Nugroho
+    
+    > Faculty: Social and Political Sciences.
+    Year: 2021
+    Role: Public Relation
+    > 
+
+Try to:
+
+1. Define a class called ****************************************************************************************`CoreTeam` ************************************************************************************************************************************************with its proper fields / properties.
+2. Define a method `toJson()` that generates JSON (`Map<String, dynamic>` ) objects from the class.
+3. You may hard-code the data according to the members informations above.
+4. Then, transform and print the `CoreTeam` class’ objects into JSON (Map form).
+
+link : https://andrenk.notion.site/Learning-Session-1-Homework-5eaf4551d8b44ec7961aebf12c4d9d6a
